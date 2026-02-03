@@ -1,0 +1,24 @@
+baseURL = 'https://nox.sh/'
+languageCode = 'en-us'
+title = "nox.sh"
+theme = "hugo-bearblog"
+
+enableRobotsTXT = true
+enableEmoji = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  title = "nox.sh"
+
+  # Uncomment for dark mode:
+  # themeColor = "#1d1f21"
+
+[menu]
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 10
